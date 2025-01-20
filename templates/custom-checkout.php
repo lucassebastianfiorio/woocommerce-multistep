@@ -79,7 +79,7 @@ get_header(); ?>
                 </div>
                 
 
-                <div class="step-content" data-step="4" style="display: <?php echo (isset($_POST['ship_to_different_address']) && $_POST['ship_to_different_address'] == '1') ? 'block' : 'none'; ?>;">
+                <div class="step-content direccion-opcional" style="display: <?php echo (isset($_POST['ship_to_different_address']) && $_POST['ship_to_different_address'] == '1') ? 'block' : 'none'; ?>;">
                     <h2>Dirección de Envío Diferente</h2>
                     <div class="woocommerce-shipping-fields">
                         <?php
@@ -92,7 +92,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <button type="button" class="prev-step">Anterior</button>
-                <button type="button" class="next-step">Siguiente</button>
+                <button type="button" class="next-step envio">Siguiente</button>
             </div>
 
             <!-- Paso 3: Pago -->
