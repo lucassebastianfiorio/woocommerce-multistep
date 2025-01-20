@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Checkout WooCommerce Personalizado
  * Description: Reemplaza la página de checkout de WooCommerce con un archivo personalizado.
- * Version: 1.2
+ * Version: 1.2 alpha
  * Author: Lucas S. Fiorio
  */
 
